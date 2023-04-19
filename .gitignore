@@ -1,0 +1,42 @@
+.env.*
+!.env.example
+
+backend/.env.*
+backend/!.env.example
+
+frontend/.env.*
+frontend/!.env.example
+
+config.json
+
+*.sqlite
+lab/
+
+# GO
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+a.go
+bin
+
+# TS/JS
+node_modules/
+.node_modules/
+
